@@ -1,12 +1,4 @@
 ---
-title: "Reproducible Research: Peer Assessment 1"
-output: 
-  html_document:
-    keep_md: true
----
-
-
----
 title: "Assignment 1 Reproducible Research"
 author: "Kyle Becker"
 date: "July 31, 2017"
