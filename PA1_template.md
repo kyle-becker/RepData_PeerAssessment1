@@ -115,7 +115,7 @@ plot(y = DF_Int_Mean$Steps_Taken, x=DF_Int_Mean$Interval, type="l", xlab="5 Minu
      main="Interval Pattern", ylab="Average Number of Steps Taken")
 ```
 
-![](C:\\Users\\kbec\\RepData_PeerAssessment1\\Graphs\\Histogram1.jpg)<!-- -->
+![](RepData_PeerAssessment1/Graphs/Histogram1.jpg)<!-- -->
 
 ```r
 #Finding interval with maximum number of steps
