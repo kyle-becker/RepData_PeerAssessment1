@@ -77,7 +77,7 @@ hist(DF_Sum$Total_Steps,10, xlab = "Step_Number", ylab = "Frequency", main = "To
 ```
 
 
-![](PA1_template_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
+![](https://github.com/kyle-becker/RepData_PeerAssessment1/blob/master/Graphs/Histogram1.jpg)<!-- -->
 
 After the histogram is created the mean and median is calculated from the daily step totals. The mean number of steps taken per day is 10766.19 and the median number of steps taken per day is 10765.
 
@@ -115,7 +115,7 @@ plot(y = DF_Int_Mean$Steps_Taken, x=DF_Int_Mean$Interval, type="l", xlab="5 Minu
      main="Interval Pattern", ylab="Average Number of Steps Taken")
 ```
 
-![](https://github.com/kyle-becker/RepData_PeerAssessment1/blob/master/Graphs/Histogram1.jpg)<!-- -->
+![](https://github.com/kyle-becker/RepData_PeerAssessment1/blob/master/Graphs/LineGraph1.jpg)<!-- -->
 
 ```r
 #Finding interval with maximum number of steps
@@ -191,7 +191,7 @@ hist(DF_Sum$Total_Steps,10, xlab = "Step_Number", ylab = "Frequency", main = "To
 hist(DF_Sum_Filled_In$Total_Steps,10, xlab = "Step_Number", ylab = "Frequency", main = "Total Steps Per Day", ylim = c(0,25))
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-13-1.png)<!-- -->
+![](https://github.com/kyle-becker/RepData_PeerAssessment1/blob/master/Graphs/HistogramCompare.jpg)<!-- -->
 
 ```r
 #Calculate the mean and median for the new data sets
@@ -286,6 +286,6 @@ plot(y = DF_SUM_Weekend$Step_Number, x = DF_SUM_Weekend$Interval, type = "l", xl
      main = "Activity on Weekends", ylab = "Average steps",ylim=c(0,300))
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-16-1.png)<!-- -->
+![](https://github.com/kyle-becker/RepData_PeerAssessment1/blob/master/Graphs/LineGraphCompare.jpg)<!-- -->
 
 Looking at the graphs we see that on average weekends have much more steps than weekdays during 5 minute intervals.
